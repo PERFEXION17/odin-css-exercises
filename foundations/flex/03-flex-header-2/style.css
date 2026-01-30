@@ -46,3 +46,34 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* SOLUTION */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo_con{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links, .notif_con{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-image{
+  min-width: 48px;
+}
